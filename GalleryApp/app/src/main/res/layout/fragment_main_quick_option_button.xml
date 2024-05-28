@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/_30sdp"
+    android:paddingEnd="@dimen/_30sdp"
+    tools:context=".views.fragments.MainQuickOptionButtonFragment"
+    tools:ignore="DisableBaselineAlignment">
+
+    <LinearLayout
+        android:id="@+id/view_btn_favourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_favourite"
+            android:layout_width="@dimen/_37sdp"
+            android:layout_height="@dimen/_37sdp"
+            android:background="@drawable/bg_ripple_circle"
+            android:backgroundTint="@color/colorMainQuickOptionButtonBackground"
+            android:padding="@dimen/_10sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_heart_outlined"
+            android:tint="@color/colorMainQuickOptionButtonIcon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@null"
+            android:includeFontPadding="false"
+            android:labelFor="@id/btn_favourite"
+            android:text="@string/label_favourites"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/_9ssp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_btn_recent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_recent"
+            android:layout_width="@dimen/_37sdp"
+            android:layout_height="@dimen/_37sdp"
+            android:background="@drawable/bg_ripple_circle"
+            android:backgroundTint="@color/colorMainQuickOptionButtonBackground"
+            android:padding="@dimen/_10sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_clock"
+            android:tint="@color/colorMainQuickOptionButtonIcon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@null"
+            android:includeFontPadding="false"
+            android:labelFor="@id/btn_recent"
+            android:text="@string/label_recent"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/_9ssp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_btn_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_people"
+            android:layout_width="@dimen/_37sdp"
+            android:layout_height="@dimen/_37sdp"
+            android:background="@drawable/bg_ripple_circle"
+            android:backgroundTint="@color/colorMainQuickOptionButtonBackground"
+            android:padding="@dimen/_10sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_people"
+            android:tint="@color/colorMainQuickOptionButtonIcon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@null"
+            android:includeFontPadding="false"
+            android:labelFor="@id/btn_people"
+            android:text="@string/label_people"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/_9ssp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_btn_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_location"
+            android:layout_width="@dimen/_37sdp"
+            android:layout_height="@dimen/_37sdp"
+            android:background="@drawable/bg_ripple_circle"
+            android:backgroundTint="@color/colorMainQuickOptionButtonBackground"
+            android:padding="@dimen/_10sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_location_outlined"
+            android:tint="@color/colorMainQuickOptionButtonIcon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@null"
+            android:includeFontPadding="false"
+            android:labelFor="@id/btn_location"
+            android:text="@string/label_locations"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/_9ssp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,3 +1,75 @@
 <resources>
-    <string name="app_name">GalleryApp</string>
+    <!--    General    -->
+    <string name="app_name">Gallery</string>
+
+    <!--    Title   -->
+    <string name="title_dest_gallery">Gallery</string>
+    <string name="title_dest_pictures">Pictures</string>
+    <string name="title_dest_videos">Videos</string>
+    <string name="title_dest_albums">Albums</string>
+
+    <string name="title_favorites">Favourites</string>
+    <string name="title_recent">Recent</string>
+    <string name="title_people">People</string>
+    <string name="title_locations">Locations</string>
+    <string name="title_privacy">Privacy</string>
+
+    <!--    Quick Option Button    -->
+    <string name="label_favourites">Favourites</string>
+    <string name="label_recent">Recent</string>
+    <string name="label_people">People</string>
+    <string name="label_locations">Locations</string>
+
+    <!--    Popup Menu Dest Fragment More    -->
+    <string name="menu_sticky_action_bar_more_select_all">Select all</string>
+    <string name="menu_sticky_action_bar_more_share">Share</string>
+    <string name="menu_sticky_action_bar_more_slideshow">Slideshow</string>
+    <string name="menu_sticky_action_bar_more_privacy">Privacy</string>
+    <string name="menu_sticky_action_bar_more_recycle_bin">Recycle bin</string>
+    <string name="menu_sticky_action_bar_more_settings">Settings</string>
+    <string name="menu_sticky_action_bar_more_about_us">About us</string>
+
+    <!--    Popup Menu Dest Fragment Filter    -->
+    <string name="menu_sticky_action_bar_filter_order_by">Order by</string>
+    <string name="menu_sticky_action_bar_filter_date">Date</string>
+    <string name="menu_sticky_action_bar_filter_size">Size</string>
+    <string name="menu_sticky_action_bar_filter_name">Name</string>
+
+    <!--    Bottom Navigation View    -->
+    <string name="menu_nav_bottom_gallery">Gallery</string>
+    <string name="menu_nav_bottom_pictures">Pictures</string>
+    <string name="menu_nav_bottom_videos">Videos</string>
+    <string name="menu_nav_bottom_albums">Albums</string>
+
+    <!--    Popup Menu Hero Item Action Bar More    -->
+    <string name="menu_hero_item_action_bar_more_details">Details</string>
+    <string name="menu_hero_item_action_bar_more_edit_copy">Copy</string>
+    <string name="menu_hero_item_action_bar_more_edit_location">Edit Location</string>
+    <string name="menu_hero_item_action_bar_more_set_as_wallpaper">Set as wallpaper</string>
+    <string name="menu_hero_item_action_bar_more_move_to_privacy_folder">Move to Privacy Folder</string>
+
+    <!--    Dialog    -->
+    <string name="dialog_delete_item_message">Move 1 item to the Recycle bin?</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_move_to_recycle_bin">Move to Recycle bin</string>
+    <string name="dialog_detail_title">Details</string>
+    <string name="dialog_detail_edit">Edit</string>
+    <string name="dialog_add_item_location_message">Add tag location for this item</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_add_item_privacy_message">Move 1 item to the Privacy?</string>
+    <string name="dialog_move_to_privacy">Move to Privacy</string>
+    <string name="dialog_open_privacy_message">Input PIN to open Privacy Folder</string>
+
+
+    <!--    Filter    -->
+    <string name="filter_style_grayscale">Grayscale</string>
+    <string name="action_save">Save</string>
+    <string name="filter_style_origin">Origin</string>
+    <string name="filter_style_dark">Dark</string>
+    <string name="filter_style_light">Light</string>
+    <string name="filter_style_saturation">Saturation</string>
+    <string name="filter_style_contrast">Contrast</string>
+    <string name="filter_style_snow">Snow</string>
+    <string name="filter_style_engrave">Engrave</string>
+
 </resources>
